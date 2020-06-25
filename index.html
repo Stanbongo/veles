@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veles - Самые культурные новости</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="page-header">
+      <nav class="page-header__navigation navigation">
+        <button class="navigation__button-open"></button>
+        <h1 class="navigation__title">Новости Культуры</h1>
+        <div class="navigation__menu-container">
+          <button class="navigation__button-close"></button>
+          <ul class="navigation__menu-wrapper">
+            <li class="navigation__item"><a class="navigation__link" href="">Новости</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="">Обзоры</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="">Музыка</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="">Архитектура</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="">Кино</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="">Театр</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="">Литература</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="">Религия</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="">Живопись</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="page-header__slider swiper-container slider">
+        <div class="swiper-wrapper slider__wrapper">
+          <div class="swiper-slide slider__slide"><img class="swiper-slide slider__slide-image" src="images/carousel-1.jpg">
+            <div class="slider__feature">Новое</div>
+            <h2 class="slider__slide-title">Подводный отель</h2>
+            <p class="slider__slide-text">
+              Как известно, Дубай – город контрастов. Самые революционные
+              и фантастические мечты архитекторов
+              способен воплотить в жизнь этот
+              мегаполис, построенный на нефти и за
+              счет  нефти
+            </p>
+          </div>
+          <div class="swiper-slide slider__slide"><img class="swiper-slide slider__slide-image" src="images/news-1.jpg">
+            <div class="slider__feature">Новое</div>
+            <h2 class="slider__slide-title">Няшные фигурки птичек</h2>
+            <p class="slider__slide-text">Ну не, вы это видели? Они реально милые!<br><br>Потрясающие, замечательные!
+              Ты можешь сделать такие же?<br>Ну и молчи тогда)
+            </p>
+          </div>
+          <div class="swiper-slide slider__slide"><img class="swiper-slide slider__slide-image" src="images/news-2.jpg">
+            <div class="slider__feature">Новое</div>
+            <h2 class="slider__slide-title">Бойся этого мужика</h2>
+            <p class="slider__slide-text">
+              Вы когда-нибудь видели эту статую?
+              Если нет, то теперь видели)<br><br>Мне нужно чем-нибудь заполнить этот слайд
+              так что здесь будет этот текст
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination slider__pagination"></div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/menu.js"></script>
+  </body>
+</html>
