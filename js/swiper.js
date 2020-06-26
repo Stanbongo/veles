@@ -3,6 +3,10 @@ var mySwiper = new Swiper ('.swiper-container', {
   direction: 'horizontal',
   loop: true,
 
+  autoplay: {
+    delay: 7000,
+  },
+
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
@@ -10,7 +14,7 @@ var mySwiper = new Swiper ('.swiper-container', {
 
   // Navigation arrows
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.slider__button-next',
+    prevEl: '.slider__button-prev',
   }
 })
