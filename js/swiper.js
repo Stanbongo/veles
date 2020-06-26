@@ -12,6 +12,11 @@ var mySwiper = new Swiper ('.swiper-container', {
     el: '.swiper-pagination',
   },
 
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
+
   // Navigation arrows
   navigation: {
     nextEl: '.slider__button-next',
