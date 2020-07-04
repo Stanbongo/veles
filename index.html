@@ -13,7 +13,9 @@
         <button class="navigation__button-open"></button>
         <h1 class="navigation__title">Новости Культуры</h1>
         <div class="navigation__menu-container">
-          <button class="navigation__button-close"></button>
+          <div class="navigation__button-wrapper">
+            <button class="navigation__button-close"></button>
+          </div>
           <ul class="navigation__menu-wrapper">
             <li class="navigation__item"><a class="navigation__link" href="">Новости</a></li>
             <li class="navigation__item"><a class="navigation__link" href="">Обзоры</a></li>
@@ -59,41 +61,67 @@
       </div>
     </div>
     <main class="page-content">
-      <section class="news-section page-content__news-section">
-        <h3 class="news-section__title">Новости</h3>
-        <div class="news-section__content-container">
-          <article class="large-news news-section__large-news"><a class="large-news__link" href="">
-              <div class="large-news__content-container">
-                <h4 class="large-news__news-title">Новости культуры России и всего мира</h4>
-                <p class="large-news__news-text">
-                  В минувшие выходные в Москве на фестивале «Оберег»
-                  вручили первую премию Russian World Music Awards
-                </p>
-              </div></a></article>
-          <section class="news-section__small-news-section">
-            <article class="news-section__small-news"><a class="news-section__small-news-container" href="">
-                <div class="news-section__poster-container" href=""><img class="news-section__poster" src="images/news-2.jpg" alt="" srcset=""></div>
-                <div class="news-section__text-container">
-                  <h4 class="news-section__news-title--small">Открытие нового памятника Евгению Леонову</h4>
-                  <p class="news-section__news-text--small">10 сентября в 15:00 был открыт памятник писателю</p>
+      <section class="news-section page-content__section">
+        <h3 class="page-content__title news-section__title">Новости</h3>
+        <div class="page-content__content-container">
+          <div class="news-section__left-news-container">
+            <article class="large-news news-section__large-news"><a class="large-news__link" href="">
+                <div class="large-news__content-container">
+                  <h4 class="large-news__news-title">Новости культуры России и всего мира</h4>
+                  <p class="large-news__news-text">
+                    В минувшие выходные в Москве на фестивале «Оберег»
+                    вручили первую премию Russian World Music Awards
+                  </p>
                 </div></a></article>
-            <section class="news-section__small-news-section">
-              <article class="news-section__small-news"><a class="news-section__small-news-container" href="">
-                  <div class="news-section__poster-container" href=""><img class="news-section__poster" src="images/news-3.jpg" alt="" srcset=""></div>
-                  <div class="news-section__text-container">
-                    <h4 class="news-section__news-title--small">Беседы с писателями</h4>
-                    <p class="news-section__news-text--small">Русские писатели беседуют о важности искусства</p>
-                  </div></a></article>
-            </section>
-            <section class="news-section__small-news-section">
-              <article class="news-section__small-news"><a class="news-section__small-news-container" href="">
-                  <div class="news-section__poster-container" href=""><img class="news-section__poster" src="images/news-4.jpg" alt="" srcset=""></div>
-                  <div class="news-section__text-container">
-                    <h4 class="news-section__news-title--small">День и ночь св. Патрика: встреча старых друзей</h4>
-                    <p class="news-section__news-text--small">Не Джойсом единым живет Ирландия!</p>
-                  </div></a></article>
-            </section>
-          </section>
+          </div>
+          <div class="news-section__right-news-container">
+            <article class="news-section__small-news-container last-news"><img class="last-news__image" src="images/news-2.jpg" alt=""><a class="last-news__text-container" href="">
+                <h3 class="last-news__title">Открытие нового памятника Евгению Леонову</h3>
+                <p class="last-news__text">10 сентября в 15:00 был открыт памятник писателю</p></a></article>
+            <article class="news-section__small-news-container last-news"><img class="last-news__image" src="images/news-3.jpg" alt=""><a class="last-news__text-container" href="">
+                <h3 class="last-news__title">Беседы с писателями</h3>
+                <p class="last-news__text">Русские писатели беседуют о важности искусства</p></a></article>
+            <article class="news-section__small-news-container last-news"><img class="last-news__image" src="images/news-4.jpg" alt=""><a class="last-news__text-container" href="">
+                <h3 class="last-news__title">День и ночь св. Патрика: встреча старых друзей</h3>
+                <p class="last-news__text">Не Джойсом единым живет Ирландия!</p></a></article>
+          </div>
+        </div>
+      </section>
+      <section class="reviews-section page-content__section">
+        <h3 class="page-content__title reviews-section__title">Обзоры</h3>
+        <div class="reviews-section__review">
+          <div class="reviews-section__image"></div>
+          <h3 class="reviews-section__title">«Шальные годы» Монпарнаса</h3>
+          <div class="reviews-section__text">
+            В Музее изобразительных искусств имени Пушкина с 29 сентября
+            по 29 ноября проходит выставка «Шальные годы Монпарнаса»
+          </div>
+        </div>
+        <div class="reviews-section__review">
+          <div class="reviews-section__image"></div>
+          <h3 class="reviews-section__title">Анатомия за 30 секунд</h3>
+          <div class="reviews-section__text">
+            Сейчас, когда мир открыт нараспашку для человека и его
+            познавательных изысканий, интерес к научно-популярной
+            литературе заметно вырос
+          </div>
+        </div>
+        <div class="reviews-section__review">
+          <div class="reviews-section__image"></div>
+          <h3 class="reviews-section__title">Русские балетные сезоны</h3>
+          <div class="reviews-section__text">
+            В Новом Иерусалиме стартовал необычный культурно-развлекательный
+            спектакль, который покажут в новом театре
+          </div>
+        </div>
+        <div class="reviews-section__review">
+          <div class="reviews-section__image"></div>
+          <h3 class="reviews-section__title">Сферические чудаки</h3>
+          <div class="reviews-section__text">
+            Корреспондентам «Культурного обозревателя» посчастливилось
+            побывать в театре «Сфера» на премьере спектакля
+            «Чудаки и зануды»
+          </div>
         </div>
       </section>
     </main>
